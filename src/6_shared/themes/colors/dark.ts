@@ -1,0 +1,45 @@
+export const dark = {
+	"main-text": "255, 255, 255",
+	"main-icon": "255, 255, 255",
+	"main-button": "255, 119, 41",
+	"main-button-on": "11, 10, 10",
+	"main-border": "115, 118, 125",
+	"main-divider": "77, 79, 81",
+	"sub-text": "115, 118, 125",
+	"sub-icon": "115, 118, 125",
+	"sub-button-1": "77, 79, 81",
+	"sub-button-2": "70, 36, 6",
+	"sub-button-on": "255, 255, 255",
+	"sub-border": "255, 255, 255",
+	placeholder: "77, 79, 81",
+	accent: "255, 119, 41",
+	overlay: "0, 0, 0",
+	tooltip: "70, 36, 6",
+
+	// bg
+	empty: "25, 25, 26",
+	page: "11, 10, 10",
+	"page-hover": "28, 28, 29",
+	modal: "20, 20, 21",
+	"modal-hover": "28, 28, 29",
+	"layer-1": "28, 28, 29",
+	"layer-1-hover": "38, 39, 41",
+	"layer-2": "38, 39, 41",
+	"layer-2-hover": "46, 47, 50",
+	"layer-3": "46, 47, 50",
+
+	// state
+	error: "250, 76, 76",
+	"error-secondary": "68, 20, 20",
+	warning: "243, 140, 68",
+	"warning-secondary": "74, 41, 5",
+	success: "15, 215, 138",
+	"success-secondary": "15, 65, 56",
+	info: "56, 145, 240",
+	"info-secondary": "18, 45, 73",
+
+	buy: "43, 221, 135",
+	"buy-secondary": "15, 41, 31",
+	sell: "255, 99, 99",
+	"sell-secondary": "59, 30, 23"
+};
