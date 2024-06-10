@@ -1,4 +1,11 @@
 <script lang="ts" setup>
+import { computed } from "vue";
+import addDays from "date-fns/addDays";
+import addHours from "date-fns/addHours";
+import format from "date-fns/format";
+import nextSaturday from "date-fns/nextSaturday";
+import type { Mail } from "@/5_entities/mail/model/mails";
+import { Calendar } from "@/6_shared/lib/registry/new-york/ui/calendar";
 import {
   Archive,
   ArchiveX,
@@ -9,13 +16,6 @@ import {
   ReplyAll,
   Trash2,
 } from "lucide-vue-next";
-import { computed } from "vue";
-import addDays from "date-fns/addDays";
-import addHours from "date-fns/addHours";
-import format from "date-fns/format";
-import nextSaturday from "date-fns/nextSaturday";
-import type { Mail } from "@/5_entities/mail/model/mails";
-import { Calendar } from "@/6_shared/lib/registry/new-york/ui/calendar";
 import {
   DropdownMenu,
   DropdownMenuContent,
